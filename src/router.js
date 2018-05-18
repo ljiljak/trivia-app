@@ -7,6 +7,6 @@ Vue.use(VueRouter)
 
 export const router = new VueRouter({
 	routes: [
-		{ path: '/', components: TriviaApp }
+		{ path: '/', component: TriviaApp }
 	]
 })
